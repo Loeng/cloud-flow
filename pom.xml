@@ -4,14 +4,15 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <modules>
-        <module>flow-microservice-gzh</module>
-        <module>flow-framework-common</module>
-        <module>flow-microservice-blob</module>
-        <module>flow-microservice-manage</module>
-        <module>flow-microservice-mail</module>
-        <module>flow-microservice-ucenter</module>
-        <module>flow-microservice-pay</module>
-        <module>flow-microservice-order</module>
+        <module>microservice-gzh</module>
+        <module>framework-common</module>
+        <module>microservice-blob</module>
+        <module>microservice-manage</module>
+        <module>microservice-mail</module>
+        <module>microservice-ucenter</module>
+        <module>microservice-pay</module>
+        <module>microservice-order</module>
+        <module>microservice-edu</module>
     </modules>
     <!--模块信息-->
     <groupId>cn.yccoding</groupId>
@@ -38,6 +39,10 @@
         <azure-storage.version>0.2.0</azure-storage.version>
         <sqlserver.version>6.4.0.jre8</sqlserver.version>
         <sendgrid.version>4.2.1</sendgrid.version>
+        <mysql.version>5.1.47</mysql.version>
+        <mybatis-plus.version>3.2.0</mybatis-plus.version>
+        <hutool.version>5.0.6</hutool.version>
+        <velocity-engine-core.version>2.1</velocity-engine-core.version>
     </properties>
 
     <dependencyManagement>
@@ -45,7 +50,7 @@
             <!-- common module-->
             <dependency>
                 <groupId>cn.yccoding</groupId>
-                <artifactId>flow-framework-common</artifactId>
+                <artifactId>framework-common</artifactId>
                 <version>${common.version}</version>
             </dependency>
             <!--lombok-->
@@ -89,6 +94,29 @@
                 <groupId>com.sendgrid</groupId>
                 <artifactId>sendgrid-java</artifactId>
                 <version>${sendgrid.version}</version>
+            </dependency>
+            <!--mysql-->
+            <dependency>
+                <groupId>mysql</groupId>
+                <artifactId>mysql-connector-java</artifactId>
+                <version>${mysql.version}</version>
+            </dependency>
+            <!-- mybatis-plus 依赖-->
+            <dependency>
+                <groupId>com.baomidou</groupId>
+                <artifactId>mybatis-plus-boot-starter</artifactId>
+                <version>${mybatis-plus.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.baomidou</groupId>
+                <artifactId>mybatis-plus-generator</artifactId>
+                <version>${mybatis-plus.version}</version>
+            </dependency>
+            <!-- mybatis-plus-generator模板引擎 依赖 -->
+            <dependency>
+                <groupId>org.apache.velocity</groupId>
+                <artifactId>velocity-engine-core</artifactId>
+                <version>${velocity-engine-core.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
