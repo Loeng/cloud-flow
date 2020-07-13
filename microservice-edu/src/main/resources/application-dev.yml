@@ -1,0 +1,35 @@
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+  # mysql数据源配置
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/flow_edu?characterEncoding=utf8&useSSL=false
+    username: root
+    password: 1234
+    # 连接池配置
+    hikari:
+      connection-test-query: SELECT 1 FROM DUAL
+      connection-timeout: 60000
+      idle-timeout: 500000
+      max-lifetime: 540000
+      maximum-pool-size: 12
+      minimum-idle: 10
+      pool-name: FlowHikariPool
+    type: com.zaxxer.hikari.HikariDataSource
+  # 格式化日期
+  jackson:
+    time-zone: GMT+8
+    date-format: yyyy-MM-dd HH:mm:ss
+  # jpa配置
+  jpa:
+    show-sql: true
+    database: mysql
+    hibernate:
+      ddl-auto: update
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+    # Hibernate SQL方言
+    properties.hibernate.dialect: org.hibernate.dialect.MySQL5Dialect

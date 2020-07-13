@@ -7,6 +7,7 @@ import java.io.PrintWriter;
 import java.io.StringWriter;
 
 /**
+ * 异常工具类
  * @Author YC
  * @create 2020/3/3
  */

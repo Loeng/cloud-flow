@@ -3,6 +3,7 @@ package cn.yccoding.common.util;
 import java.math.BigDecimal;
 
 /**
+ * 货币工具类
  * @author YC
  * @since 2020/6/3 18:23
  */

@@ -1,6 +1,7 @@
 package cn.yccoding.common.util;
 
 /**
+ * 通用工具类
  * @Author YC
  * @create 2020/5/1
  */

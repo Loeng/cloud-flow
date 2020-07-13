@@ -4,7 +4,7 @@ import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import cn.yccoding.common.contants.ResultCodeEnum;
+import cn.yccoding.common.contant.ResultCodeEnum;
 import cn.yccoding.common.exception.CustomException;
 import cn.yccoding.common.util.ExceptionUtils;
 import cn.yccoding.common.vo.R;

@@ -1,9 +1,9 @@
 package cn.yccoding.edu;
 
-import cn.yccoding.edu.data.TeacherRepository;
-import cn.yccoding.edu.data.UserRepository;
-import cn.yccoding.edu.domain.Teacher;
-import cn.yccoding.edu.domain.User;
+import cn.yccoding.edu.domain.repository.TeacherRepository;
+import cn.yccoding.edu.domain.repository.UserRepository;
+import cn.yccoding.edu.domain.entity.Teacher;
+import cn.yccoding.edu.domain.entity.User;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -40,7 +40,7 @@ public class TestUser {
     @Test
     public void testSelect() {
         Teacher teacher = new Teacher();
-        teacher.setName("王3狗").setCareer("老师").setIntro("王老师").setLevel(1)
+        teacher.setName("王6狗").setCareer("老师").setIntro("王老师").setLevel(1)
                 .setSort(2).setCreateTime(LocalDateTime.now())
                 .setUpdateTime(LocalDateTime.now());
         teacherRepository.save(teacher);
