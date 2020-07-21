@@ -1,0 +1,188 @@
+2020-07-14 00:56:51,205 INFO DEFAULT_GROUP@@service-edu {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.31.229:9710:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-07-14 00:56:51,205 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-edu, ips: 192.168.31.229:9710_true,
+
+2020-07-14 00:58:04,489 INFO DEFAULT_GROUP@@service-edu {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.31.229:9710:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-07-14 00:58:04,489 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-edu, ips: 
+
+2020-07-14 00:58:13,618 INFO DEFAULT_GROUP@@service-edu {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.31.229:9710:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-07-14 00:58:13,618 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-edu, ips: 192.168.31.229:9710_true,
+
+2020-07-14 00:58:54,218 INFO DEFAULT_GROUP@@service-edu {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.31.229:9710:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-07-14 00:58:54,218 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-edu, ips: 
+
+2020-07-14 01:02:03,566 INFO DEFAULT_GROUP@@service-edu {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.31.229:9710:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-07-14 01:02:03,566 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-edu, ips: 192.168.31.229:9710_true,
+
+2020-07-14 01:03:46,264 INFO DEFAULT_GROUP@@service-edu {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.31.229:9710:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-07-14 01:03:46,264 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-edu, ips: 
+
+2020-07-14 01:03:55,818 INFO DEFAULT_GROUP@@service-edu {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.31.229:9710:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-07-14 01:03:55,818 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-edu, ips: 192.168.31.229:9710_true,
+
+2020-07-14 01:05:19,453 INFO DEFAULT_GROUP@@service-edu {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.31.229:9710:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-07-14 01:05:19,453 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-edu, ips: 
+
+2020-07-14 21:18:11,362 INFO DEFAULT_GROUP@@service-edu {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.31.229:9710:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-07-14 21:18:11,362 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-edu, ips: 192.168.31.229:9710_true,
+
+2020-07-14 21:20:04,826 INFO DEFAULT_GROUP@@service-edu {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.31.229:9710:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-07-14 21:20:04,826 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-edu, ips: 
+
+2020-07-14 21:20:14,706 INFO DEFAULT_GROUP@@service-edu {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.31.229:9710:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-07-14 21:20:14,706 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-edu, ips: 192.168.31.229:9710_true,
+
+2020-07-14 21:21:24,131 INFO DEFAULT_GROUP@@service-edu {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.31.229:9710:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-07-14 21:21:24,131 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-edu, ips: 
+
+2020-07-14 21:25:38,259 INFO DEFAULT_GROUP@@service-edu {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.31.229:9710:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-07-14 21:25:38,259 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-edu, ips: 192.168.31.229:9710_true,
+
+2020-07-14 21:26:07,886 INFO DEFAULT_GROUP@@service-edu {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.31.229:9710:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-07-14 21:26:07,886 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-edu, ips: 
+
+2020-07-14 21:26:20,935 INFO DEFAULT_GROUP@@service-edu {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.31.229:9710:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-07-14 21:26:20,936 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-edu, ips: 192.168.31.229:9710_true,
+
+2020-07-14 21:26:59,028 INFO DEFAULT_GROUP@@service-edu {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.31.229:9710:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-07-14 21:26:59,028 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-edu, ips: 
+
+2020-07-14 22:05:29,717 INFO DEFAULT_GROUP@@service-edu {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.31.229:9710:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-07-14 22:05:29,717 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-edu, ips: 192.168.31.229:9710_true,
+
+2020-07-14 22:05:46,034 INFO DEFAULT_GROUP@@service-edu {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.31.229:9710:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-07-14 22:05:46,035 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-edu, ips: 
+
+2020-07-14 22:06:05,440 INFO DEFAULT_GROUP@@service-edu {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.31.229:9710:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-07-14 22:06:05,440 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-edu, ips: 192.168.31.229:9710_true,
+
+2020-07-14 22:06:15,441 INFO DEFAULT_GROUP@@service-edu {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.31.229:9710:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-07-14 22:06:15,441 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-edu, ips: 
+
+2020-07-14 22:06:24,600 INFO DEFAULT_GROUP@@service-edu {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.31.229:9710:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-07-14 22:06:24,600 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-edu, ips: 192.168.31.229:9710_true,
+
+2020-07-14 22:06:51,488 INFO DEFAULT_GROUP@@service-edu {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.31.229:9710:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-07-14 22:06:51,488 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-edu, ips: 
+
+2020-07-14 22:07:01,924 INFO DEFAULT_GROUP@@service-edu {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.31.229:9710:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-07-14 22:07:01,924 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-edu, ips: 192.168.31.229:9710_true,
+
+2020-07-14 22:07:11,002 INFO DEFAULT_GROUP@@service-edu {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.31.229:9710:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-07-14 22:07:11,002 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-edu, ips: 
+
+2020-07-14 22:08:31,926 INFO DEFAULT_GROUP@@service-edu {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.31.229:9710:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-07-14 22:08:31,926 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-edu, ips: 192.168.31.229:9710_true,
+
+2020-07-14 22:10:13,653 INFO DEFAULT_GROUP@@service-edu {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.31.229:9710:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-07-14 22:10:13,653 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-edu, ips: 
+
+2020-07-14 22:10:23,512 INFO DEFAULT_GROUP@@service-edu {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.31.229:9710:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-07-14 22:10:23,512 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-edu, ips: 192.168.31.229:9710_true,
+
+2020-07-14 22:11:56,673 INFO DEFAULT_GROUP@@service-edu {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.31.229:9710:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-07-14 22:11:56,673 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-edu, ips: 
+
+2020-07-14 22:12:07,956 INFO DEFAULT_GROUP@@service-edu {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.31.229:9710:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-07-14 22:12:07,956 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-edu, ips: 192.168.31.229:9710_true,
+
+2020-07-14 22:12:39,254 INFO DEFAULT_GROUP@@service-edu {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.31.229:9710:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-07-14 22:12:39,254 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-edu, ips: 
+
+2020-07-14 22:12:48,450 INFO DEFAULT_GROUP@@service-edu {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.31.229:9710:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-07-14 22:12:48,450 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-edu, ips: 192.168.31.229:9710_true,
+
+2020-07-14 22:12:55,242 INFO DEFAULT_GROUP@@service-edu {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.31.229:9710:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-07-14 22:12:55,242 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-edu, ips: 
+
+2020-07-14 22:13:08,842 INFO DEFAULT_GROUP@@service-edu {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.31.229:9710:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-07-14 22:13:08,842 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-edu, ips: 192.168.31.229:9710_true,
+
+2020-07-14 22:13:28,110 INFO DEFAULT_GROUP@@service-edu {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.31.229:9710:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-07-14 22:13:28,110 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-edu, ips: 
+
+2020-07-14 22:13:34,288 INFO DEFAULT_GROUP@@service-edu {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.31.229:9710:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-07-14 22:13:34,288 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-edu, ips: 192.168.31.229:9710_true,
+
+2020-07-14 22:14:05,475 INFO DEFAULT_GROUP@@service-edu {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.31.229:9710:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-07-14 22:14:05,475 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-edu, ips: 
+
+2020-07-14 22:27:11,732 INFO DEFAULT_GROUP@@service-edu {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.31.229:9710:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-07-14 22:27:11,732 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-edu, ips: 192.168.31.229:9710_true,
+
+2020-07-14 22:27:31,664 INFO DEFAULT_GROUP@@service-edu {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.31.229:9710:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-07-14 22:27:31,664 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-edu, ips: 
+
+2020-07-14 22:27:39,839 INFO DEFAULT_GROUP@@service-edu {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.31.229:9710:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-07-14 22:27:39,839 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-edu, ips: 192.168.31.229:9710_true,
+
+2020-07-14 22:28:16,917 INFO DEFAULT_GROUP@@service-edu {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.31.229:9710:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-07-14 22:28:16,917 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-edu, ips: 
+
+2020-07-14 22:28:22,344 INFO DEFAULT_GROUP@@service-edu {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.31.229:9710:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-07-14 22:28:22,344 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-edu, ips: 192.168.31.229:9710_true,
+
+2020-07-14 22:30:48,263 INFO DEFAULT_GROUP@@service-edu {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.31.229:9710:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-07-14 22:30:48,263 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-edu, ips: 
+
+2020-07-14 22:31:23,420 INFO DEFAULT_GROUP@@service-edu {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.31.229:9710:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-07-14 22:31:23,420 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-edu, ips: 192.168.31.229:9710_true,
+
+2020-07-14 22:31:42,627 INFO DEFAULT_GROUP@@service-edu {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.31.229:9710:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-07-14 22:31:42,627 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-edu, ips: 
+
+2020-07-14 23:50:32,415 INFO DEFAULT_GROUP@@service-edu {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.31.229:9710:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-07-14 23:50:32,415 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-edu, ips: 192.168.31.229:9710_true,
+
+2020-07-14 23:52:55,086 INFO DEFAULT_GROUP@@service-edu {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.31.229:9710:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-07-14 23:52:55,086 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-edu, ips: 
+
+2020-07-14 23:53:06,318 INFO DEFAULT_GROUP@@service-edu {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.31.229:9710:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-07-14 23:53:06,318 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-edu, ips: 192.168.31.229:9710_true,
+
