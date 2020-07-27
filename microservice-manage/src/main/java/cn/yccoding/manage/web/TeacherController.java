@@ -1,21 +1,18 @@
 package cn.yccoding.manage.web;
 
-import cn.yccoding.manage.object.TeacherQo;
-import com.sun.xml.internal.ws.api.ha.StickyFeature;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Optional;
+import java.util.concurrent.CompletableFuture;
+
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.HttpStatus;
-import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import cn.yccoding.common.vo.R;
 import cn.yccoding.manage.domain.entity.Teacher;
 import cn.yccoding.manage.domain.service.TeacherService;
+import cn.yccoding.manage.object.TeacherQo;
 import reactor.core.publisher.Mono;
-
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Optional;
-import java.util.concurrent.CompletableFuture;
 
 /**
  * 教师控制器--反应式编程
@@ -31,6 +28,14 @@ public class TeacherController {
     @Autowired
     TeacherService teacherService;
 
+    public static void main(String[] args) throws InterruptedException {
+        List<Teacher> teachers = new ArrayList<>();
+        while (true) {
+            teachers.add(new Teacher());
+            Thread.sleep(10);
+        }
+    }
+
     @GetMapping("/one/{id}")
     public Mono<R> findById(@PathVariable String id) {
         return teacherService.findOne(id).map(i -> R.ok().data("item1", i));
@@ -44,7 +49,7 @@ public class TeacherController {
 
     @GetMapping("/one3/{id}")
     public CompletableFuture<R> findById3(@PathVariable String id) {
-        return CompletableFuture.supplyAsync(()->{
+        return CompletableFuture.supplyAsync(() -> {
             Optional<Teacher> teacher = teacherService.findOne2(id);
             return R.ok().data("item3", teacher);
         });
@@ -74,7 +79,7 @@ public class TeacherController {
 
     @GetMapping("/list3")
     public CompletableFuture<R> findAll3() {
-        return CompletableFuture.supplyAsync(()->{
+        return CompletableFuture.supplyAsync(() -> {
             Iterable<Teacher> teacher = teacherService.findAll2();
             return R.ok().data("items3", teacher);
         });
@@ -89,14 +94,6 @@ public class TeacherController {
     @PostMapping
     public Mono<R> save(@RequestBody Teacher teacher) {
         return teacherService.save(teacher).map(i -> R.ok().data("item", i));
-    }
-
-    public static void main(String[] args) throws InterruptedException {
-        List<Teacher> teachers = new ArrayList<>();
-        while (true) {
-            teachers.add(new Teacher());
-            Thread.sleep(10);
-        }
     }
 
 }

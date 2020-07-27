@@ -22,7 +22,7 @@ ali-yun:
   oss:
     file:
       endpoint: oss-cn-shenzhen.aliyuncs.com
-      key-id: LTAI4G4RxzcisHeyVAMPj4ni
-      key-secret: 08V6TmJfRp55kVG4Q4hc90sc6Jbab0
+      key-id:
+      key-secret:
       #bucket可以在控制台创建，也可以使用java代码创建
-      bucket-name: evernote-yc-01
+      bucket-name: 

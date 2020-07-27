@@ -57,7 +57,7 @@
     </dependencies>
 
     <!--普通模块工程要去除改插件-->
-<!--    <build>
+    <build>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
@@ -79,5 +79,5 @@
                 </configuration>
             </plugin>
         </plugins>
-    </build>-->
+    </build>
 </project>
