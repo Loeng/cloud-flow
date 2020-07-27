@@ -1,2 +1,28 @@
 server:
-  port: 8082
+  port: 9810
+
+spring:
+  application:
+    name: service-oss
+
+  profiles:
+    active: dev
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+  servlet:
+    multipart:
+      max-request-size: 10MB
+      max-file-size: 2MB
+
+#阿里云OSS
+#不同的服务器，地址不同
+ali-yun:
+  oss:
+    file:
+      endpoint: oss-cn-shenzhen.aliyuncs.com
+      key-id: LTAI4G4RxzcisHeyVAMPj4ni
+      key-secret: 08V6TmJfRp55kVG4Q4hc90sc6Jbab0
+      #bucket可以在控制台创建，也可以使用java代码创建
+      bucket-name: evernote-yc-01
