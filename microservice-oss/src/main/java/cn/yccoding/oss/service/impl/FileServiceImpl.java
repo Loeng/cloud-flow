@@ -8,6 +8,7 @@ import java.time.ZoneOffset;
 import java.time.format.DateTimeFormatter;
 import java.util.UUID;
 
+import cn.yccoding.common.exception.CustomException;
 import cn.yccoding.oss.config.OssProperties;
 import cn.yccoding.oss.service.FileService;
 import com.aliyun.oss.OSS;
@@ -25,11 +26,17 @@ import org.springframework.stereotype.Service;
 @Service
 public class FileServiceImpl implements FileService {
 
+    private static final String defaultSecret = "xiaohaimian1234";
+
     @Autowired
     private OssProperties ossProperties;
 
     @Override
-    public String upload(InputStream inputStream, String module, String originalFilename) {
+    public String upload(InputStream inputStream, String module, String originalFilename,String secret) {
+        if (!defaultSecret.equals(secret)) {
+            throw new CustomException(50004, "无效的密钥");
+        }
+
         String endpoint = ossProperties.getEndpoint();
         String accessKeyId = ossProperties.getKeyId();
         String accessKeySecret = ossProperties.getKeySecret();

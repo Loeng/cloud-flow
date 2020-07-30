@@ -32,7 +32,7 @@ public class FileController {
     private FileService fileService;
 
     @PostMapping("/upload")
-    public R upload(@RequestParam("file") MultipartFile file, @RequestParam String module) {
+    public R upload(@RequestParam("file") MultipartFile file, @RequestParam String module,@RequestParam String secret) {
         InputStream is = null;
         try {
             is = file.getInputStream();
@@ -40,7 +40,7 @@ public class FileController {
             throw new CustomException(50001, "文件读取失败");
         }
         String originalFilename = file.getOriginalFilename();
-        String url = fileService.upload(is, module, originalFilename);
+        String url = fileService.upload(is, module, originalFilename,secret);
         return R.ok().data("url", url).message("文件上传成功");
     }
 }

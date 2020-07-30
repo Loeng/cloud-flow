@@ -16,5 +16,5 @@ public interface FileService {
      * @param originalFilename
      * @return 图片url地址
      */
-    String upload(InputStream inputStream,String module,String originalFilename);
+    String upload(InputStream inputStream,String module,String originalFilename, String secret);
 }
