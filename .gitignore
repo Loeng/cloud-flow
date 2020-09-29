@@ -60,7 +60,4 @@ logs
 Thumbs.db
 Servers
 .metadata
-flow-microservice-payment/src/main/resources/payment/wxinfo.properties
-flow-microservice-payment/src/main/resources/payment/zfbinfo.properties
-*/wxinfo.properties
-*/zfbinfo.properties
+flow-microservice-payment/src/main/resources/payment/*.properties
