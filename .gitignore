@@ -62,3 +62,5 @@ Servers
 .metadata
 flow-microservice-payment/src/main/resources/payment/wxinfo.properties
 flow-microservice-payment/src/main/resources/payment/zfbinfo.properties
+*/wxinfo.properties
+*/zfbinfo.properties
